@@ -1,0 +1,73 @@
+
+.info-button {
+  background-color: #b9375e;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.about-content {
+  position: fixed;
+  top: 10%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 60%;
+  max-width: 100rem;
+  z-index: 5;
+  color: black;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    top: 15%;;
+  }
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100rem;
+  height: 100rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 4;
+}
+
+.close-button {
+  position: absolute;
+  transform: translateY(-50%); 
+  right: 1rem;
+  top: 3rem;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cross-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.bold-text {
+  font-size: 1.7rem;
+}
+
+.p-text {
+  font-size: 1.5rem;
+}
+
+.title-about {
+  font-size: 2.6rem;
+}
+
+.logo-madorTill {
+  width: 6rem;
+}

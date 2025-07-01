@@ -1,0 +1,44 @@
+.Loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-color: #fadde1;
+    background-image: url('../assets/background-web.svg');
+    animation: fadeOut 6s ease-in-out forwards; 
+    overflow: hidden;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  } 
+  
+  @media screen and (max-width: 768px) {
+    .Loader-container  {
+      background-image: url('../assets/background-phone.svg');
+    }
+  }
+  .gif-load {
+    width: 30rem;
+    height: 30rem;
+    
+    filter: sepia(1) saturate(1000%) hue-rotate(-50deg) brightness(0.7);
+}
+
+
+  .getting-started {
+    font-size: 2.5rem;
+    color: rgb(243, 161, 161);
+    font-weight: 700;
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1; /* מתחיל אטום */
+    }
+    100% {
+      opacity: 0; /* נעלם */
+      visibility: hidden; /* מסתיר את האלמנט */
+    }
+  }
+  
