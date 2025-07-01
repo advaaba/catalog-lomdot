@@ -9,7 +9,7 @@ export default function Loader() {
         alt="Loading..."
         className="gif-load"
       />
-      <p className = "getting-started">מיד מתחילים...</p>
+      <p className = "getting-started">מיד מתחילים..</p>
     </div>
   );
 }
